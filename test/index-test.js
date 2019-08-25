@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom'
 import Enzyme, { shallow, mount } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
-import App from '../src/App.js'
-import BlogPost from '../src/BlogPost.js'
-import Comment from '../src/Comment.js'
-import ColorBox from '../src/ColorBox.js'
+import App from '../src/App.js.js'
+import BlogPost from '../src/BlogPost.js.js'
+import Comment from '../src/Comment.js.js'
+import ColorBox from '../src/ColorBox.js.js'
 
 Enzyme.configure({ adapter: new Adapter() })
 
